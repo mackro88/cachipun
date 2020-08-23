@@ -1,17 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2020-08-23T17:38:12.619Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="wGdbpaOPwFmHJIft4tdg" version="13.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-23T18:30:12.264Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="B7yUxlNPSGO27lDPxZ5U" version="13.6.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="778" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Phs6VMe3P_re2mjiYe4f-0" target="Phs6VMe3P_re2mjiYe4f-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Phs6VMe3P_re2mjiYe4f-0" value="Inicio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="390" y="40" width="60" height="40" as="geometry" />
+          <mxGeometry x="390" y="30" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Phs6VMe3P_re2mjiYe4f-1" value="Usuario ingresa opción&lt;br&gt;(tijera, papel, piedra)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="380" width="211" height="50" as="geometry" />
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Phs6VMe3P_re2mjiYe4f-1" target="Phs6VMe3P_re2mjiYe4f-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Phs6VMe3P_re2mjiYe4f-2" value="&lt;span&gt;Usuario ingresa&lt;/span&gt;&lt;br&gt;&lt;span&gt;tijera, papel o piedra&lt;/span&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="335" y="90" width="170" height="70" as="geometry" />
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-1" value="CPU elige opción&lt;br&gt;(tijera, papel, piedra)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="329.5" y="370" width="181" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Phs6VMe3P_re2mjiYe4f-9" target="Phs6VMe3P_re2mjiYe4f-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-2" value="&lt;span&gt;Usuario ingresa opción&lt;/span&gt;&lt;br&gt;&lt;span&gt;(tijera, papel o piedra)&lt;/span&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="335" y="100" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Phs6VMe3P_re2mjiYe4f-3" target="Phs6VMe3P_re2mjiYe4f-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-3" value="usuario == cpu" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="355" y="464.5" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-4" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Phs6VMe3P_re2mjiYe4f-2" target="Phs6VMe3P_re2mjiYe4f-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="360" as="sourcePoint" />
+            <mxPoint x="520" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-6" value="print &quot;Argumento inválido. Debe ser piedra, papel o tijera&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="203.75" width="190" height="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-8" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510.5" y="240" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Phs6VMe3P_re2mjiYe4f-9" target="Phs6VMe3P_re2mjiYe4f-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-9" value="usuario == tijera || piedra || papel" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="355" y="200" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-12" value="si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="330" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-13" value="print &quot;Empataste&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="490.88" width="150" height="67.25" as="geometry" />
+        </mxCell>
+        <mxCell id="Phs6VMe3P_re2mjiYe4f-15" value="si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510.5" y="490" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
